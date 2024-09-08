@@ -15,7 +15,7 @@ class SelectionSort:
         self.arr=arr
         self.N= len(arr)
     
-    def sort(self):
+    def ssort(self):
         for i in range(self.N):
             min_index = i
             for j in range(i+1, self.N):
@@ -26,7 +26,7 @@ class SelectionSort:
 
 
                     
-obj=SelectionSort([13,46,24,52,20,9,1])
-print(obj.sort())
+obj=SelectionSort([13,20,46,24,1,52,20,9,1])
+print(obj.ssort())
 obj=SelectionSort([5,4,3,2,1])
-print(obj.sort())
+print(obj.ssort())
