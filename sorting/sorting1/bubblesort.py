@@ -1,10 +1,13 @@
-def bubblesort(arr):
-    for passes in range(len(arr)-1):
-        for bubble in range(len(arr)-1-passes):
-            if arr[bubble+1]<arr[bubble]:
-                arr[bubble+1],arr[bubble]=arr[bubble],arr[bubble+1]
-            print(arr)
-    print(f"bubble sort result: {arr}")
+# Example 1:
+# Input: N = 6, array[] = {13,46,24,52,20,9}
+# Output: 9,13,20,24,46,52
+# Explanation: After sorting we get 9,13,20,24,46,52
 
-arr=[5,4,8,7,6,3,4]
-bubblesort(arr)
+def BubbleSort(arr):
+    for i in range(len(arr)-1):
+        for j in range(len(arr)-1-i):
+            if(arr[j+1]<arr[j]):
+                arr[j+1],arr[j]=arr[j],arr[j+1]
+    print(arr)
+    
+BubbleSort([13,46,24,52,20,9])
