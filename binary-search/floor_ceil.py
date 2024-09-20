@@ -11,7 +11,7 @@ class floorceil:
         while(low<=high):
             mid=(low+high)//2
             if self.arr[mid]<=self.target:
-                self.lower=arr[mid]
+                self.lower=self.arr[mid]
                 low=mid+1
             else:
                 high=mid-1
@@ -23,7 +23,7 @@ class floorceil:
         while(low<=high):
             mid=(low+high)//2
             if self.arr[mid]>=self.target:
-                self.upper=arr[mid]
+                self.upper=self.arr[mid]
                 high=mid-1
             else:
                 low=mid+1
