@@ -29,15 +29,15 @@ Output: true
 '''
 
 def isomorphic(s,t):
-    if len(s) != len(t):
-        return False
-    d = {}
-    for i in range(len(s)):
-        if s[i] in d and  d[s[i]] != t[i]:
-            return False
-        else:
-            d[s[i]] = t[i]
-    return True
+    maps=[]
+    mapt=[]
+    for idx in s:
+        maps.append(s.index(idx))
+    for idx in t:
+        mapt.append(t.index(idx))
+    if maps==mapt:
+        return True
+    return False
 
 s = "egg"
 t = "add"
