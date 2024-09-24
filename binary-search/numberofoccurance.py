@@ -31,9 +31,11 @@ def rightoccurence(arr,target):
 
 def count(arr,target):
     left=leftoccurence(arr,target)
+    print(left)
     if left==-1:
         return (-1,-1)
     right=rightoccurence(arr,target)
+    print(right)
     result=(right-left)+1
     return result
 
