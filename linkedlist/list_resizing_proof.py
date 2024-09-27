@@ -16,6 +16,6 @@ for i in range(10):
     show_list_info(my_list)
 
 # Continue appending more elements to observe resizing
-for i in range(10, 20):
+for i in range(10, 500):
     my_list.append(i)
     show_list_info(my_list)
