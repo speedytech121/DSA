@@ -37,6 +37,7 @@ class LinkedList:
             count+=1
             temp=temp.next
         return count
+    
     def printll(self):
         temp=self.head
         if temp is not None:
