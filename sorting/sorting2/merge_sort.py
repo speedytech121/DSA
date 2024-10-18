@@ -3,8 +3,8 @@ def merge_sort(arr):
         left_arr = arr[:len(arr)//2]
         right_arr = arr[len(arr)//2:]
 
-        merge_sort(left_arr)
-        merge_sort(right_arr)
+        merge_sort
+        merge_sort(right_arr(left_arr))
 
         i,j,k=0,0,0
         while i<len(left_arr) and j<len(right_arr):
