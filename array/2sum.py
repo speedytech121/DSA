@@ -1,13 +1,12 @@
-def two_sum(arr, target):
-    num_map={}
-
-    for i in range(len(arr)):
-        compliment=target-arr[i]
-        if compliment in num_map:
-            return [i,num_map[compliment]]
-        num_map[arr[i]]=i
+def twosum(arr,target):
+    nummap = {}
+    for i, num in enumerate(arr):
+        complimentry = target - num
+        if complimentry in nummap:
+            return [i,nummap[complimentry]]
+        else:
+            nummap[num]=i
     return []
 
-
 arr=[1,2,3,4,5,6]
-print(two_sum(arr,55))
+print(twosum(arr,7))
