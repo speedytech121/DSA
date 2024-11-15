@@ -1,3 +1,22 @@
+# Time Complexity: O(m*n) Space Complexity: O(n)
+def next_greater_element(nums1, nums2):
+    output = []
+    l = len(nums2)
+    for num in nums1:
+        indx = nums2.index(num)
+        if indx!=l-1:
+            for i in range(indx+1, l):
+                if nums2[i]>num:
+                    output.append(nums2[i])
+                    break
+            else:
+                output.append(-1)
+        else:
+            output.append(-1)
+    return output
+       
+
+# Time Complexity: O(m+n) Space Complexity: O(m+n)
 def next_greater_element(nums1, nums2):
     stack=[]
     hashmap={}
@@ -20,6 +39,10 @@ def next_greater_element(nums1, nums2):
         output.append(hashmap[elem])
     
     return output
+
+
+
+
 
 
 nums1 = [4,1,2]
