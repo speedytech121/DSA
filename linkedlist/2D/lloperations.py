@@ -1,4 +1,5 @@
-'''isempty, isertatstart, insertatend, search, insertafter,
+'''Doubly Linked List operations:
+isempty, isertatstart, insertatend, search, insertafter,
 deletefirst, deletelast, deleteitem, printll '''
 
 class Node:
