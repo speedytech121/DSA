@@ -1,0 +1,79 @@
+'''
+A binary Tree Data Structure is a hierarchical data structure in which each node has at most two children, referred to as the left child and right child.
+it is commonly used for efficient storage and retrieval of data, with various operations such as insertion, deletion and traversal.
+
+      1            level 0
+    /   \
+   2     3         level 1
+  / \   / \
+4    5 6   7       level 2
+  
+
+Node creation:
+class Node:
+    def __init__(self, key):
+    self.left = None
+    self.right = None
+    slef.val = key
+
+
+TERMINOLOGIES:
+Nodes: which container data and link to child node
+root: the topmost node in a tree.
+parent node: a node that has one or ore child nodes.
+child node: a node that is a descendant of another node(its parent).
+leaf node: a node that does not have any children.
+internal node: a node that has atleast one child except the root and the leaf nodes / Internal/External nodes – Leaf nodes are external nodes and non leaf nodes are internal nodes.
+depth of a node: number of edges from a specific node to the root node. the depth of root node is 0
+height: the number of nodes from the deepest leaf node to the root node.
+
+PROPERTIES:
+* The maximum number of nodes at level L of a binary tree is 2^L
+* The maximum number of nodes in a binary tree of height H is 2^H - 1
+* Total number of leaf nodes in a binary tree = total number of nodes with 2 children + 1
+* In a binary tree with N nodes, the minimum possible height or the minimum number of levels is Log2(N+1)
+
+
+TYPES OF BINARY TREE
+---> ON THE BASIS OF NUMBER OF CHILDREN
+1. Full Binary Tree/Strict Binary Tree (either 0 or 2 children) done
+2. Degenerate Binary Tree
+3. Skewed Binary Trees
+---> ON THE BASIS OF COMPLETION OF LEVELS
+1. Complete Binary Tree (no holes: all levels should be completely filled)
+4. Almost Complete Binary Tree
+2. Perfect Binary Tree
+3. Balanced Binary Tree
+---> ON THE BASIS OF NODE VALUES
+1. Binary Search Tree (bst)
+2. AVL Tree
+3. Red Black Tree
+4. B+ Tree
+5. Segment Tree
+
+
+OPERATIONS ON BINARY TREE
+1. Traversal (dfs or bfs)
+2. insertion 
+3. searching
+4. deletion
+
+
+COMPLEXITY ANALYSIS OF BINARY TREE OPERATIONS:
+Operation	            Time Complexity	Auxiliary Space
+In-Order Traversal  	O(n)	        O(n)
+Pre-Order Traversal	    O(n)	        O(n)
+Post-Order Traversal	O(n)	        O(n)
+Insertion (Unbalanced)	O(n)	        O(n)
+Searching (Unbalanced)	O(n)	        O(n)
+Deletion (Unbalanced)	O(n)	        O(n)
+
+
+APPLICATIONS OF BINARY TREE
+Binary Tree can be used to represent hierarchical data.
+Huffman coding trees are used in data compression algorithms.
+Priority Queue is another application of binary tree that is used for searching maximum or minimum in O(1) time complexity.
+Useful for indexing segmented at the database is useful in storing cache in the system.
+Binary trees can be used to implement decision trees, a type of machine learning algorithm used for classification and regression analysis.
+
+'''
