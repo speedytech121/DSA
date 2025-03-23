@@ -1,4 +1,4 @@
-1. --------------- ARRAYS AND STRINGS --------------- 
+--------------- ARRAYS AND STRINGS --------------- 
 
 1. Find the maximum product of two integers in an array.​ (done)
 2. Determine if a string has all unique characters.​ (done)
@@ -7,7 +7,7 @@
 5. Find the longest substring without repeating characters.​ (done)
 6. Number to word conversion.
 
-2. --------------- LINKEDLIST --------------- 
+--------------- LINKEDLIST --------------- 
 
 7. Reverse a singly linked list. (done)
 ​8. Detect a cycle in a linked list. (done)
@@ -15,7 +15,7 @@
 10. Find the intersection point of two linked lists. (done)
 ​11. Remove the nth node from the end of a linked list.​ (done)
 
-3. --------------- TREES AND GRAPH --------------- 
+--------------- TREES AND GRAPH --------------- 
 
 12. Implement inorder, preorder, and postorder traversal of a binary tree.​
 13. Check if a binary tree is balanced.​
@@ -24,7 +24,7 @@
 16. Perform a breadth-first search (BFS) and depth-first search (DFS) on a graph.​
 17. Check value is present in the binary search tree
 
-4. --------------- SORTING AND SEARCHING --------------- 
+--------------- SORTING AND SEARCHING --------------- 
 
 18. Implement quicksort and mergesort algorithms.​
 19. Find the kth largest element in an unsorted array.​
@@ -32,7 +32,7 @@
 21. Find the first and last position of an element in a sorted array.​
 22. Implement binary search.​
 
-5. --------------- DYNAMIC PROGRAMMING --------------- 
+--------------- DYNAMIC PROGRAMMING --------------- 
 
 23. Compute the nth Fibonacci number using dynamic programming.​
 24. Solve the coin change problem.​
@@ -40,7 +40,7 @@
 26. Determine the maximum sum subarray (Kadane's algorithm).​
 27. Solve the 0/1 knapsack problem.​
 
-6. --------------- RECURSION AND BACKTRACKING --------------- 
+--------------- RECURSION AND BACKTRACKING --------------- 
 
 28. Solve the N-Queens problem.​
 29. Generate all subsets of a set.​
@@ -48,7 +48,7 @@
 31. Solve the Sudoku puzzle.​
 32. Implement a word search in a matrix.​
 
-7. --------------- BIT MANUPULATION --------------- 
+--------------- BIT MANUPULATION --------------- 
 
 33. Determine if a number is a power of two.​
 34. Count the number of 1s in the binary representation of an integer.​
@@ -56,7 +56,7 @@
 ​36. Swap two numbers without using a temporary variable.​
 37. Reverse the bits of an integer.​
 
-8. --------------- MATHEMATICS AND NUMBER THEORY ---------------  
+--------------- MATHEMATICS AND NUMBER THEORY ---------------  
 
 38. Check if a number is prime.​
 39. Compute the greatest common divisor (GCD) of two numbers.​
@@ -64,7 +64,7 @@
 41. Generate prime numbers up to a given number using the Sieve of Eratosthenes.​
 42. Determine the factorial of a number.​
 
-9. --------------- MISCELLENIOUS ---------------  
+--------------- MISCELLENIOUS ---------------  
 
 43. Design and implement a LRU (Least Recently Used) cache.​
 44. Evaluate a mathematical expression given as a string.​
@@ -72,7 +72,7 @@
 46. Simulate the movement of a robot in a grid.​
 47. Design a parking lot system.​
 
-10. --------------- DATABASE AND SQL --------------- 
+--------------- DATABASE AND SQL --------------- 
 
 48. Write an SQL query to find the second highest salary from a table.​
 49. Write an SQL query to delete duplicate rows from a table.​
@@ -82,10 +82,10 @@
 
 
 
-11. --------------- GENERAL CODING QUESTIONS --------------- 
+--------------- GENERAL CODING QUESTIONS --------------- 
 
 53. Stock buy and sell
-54. Sort an Array of 0s, 1s, and 2s:
+54. Sort an Array of 0s, 1s, and 2s
 55.  Consider a string, S, that is a series of characters, each followed by its frequency as an integer.
      The string is not compressed correctly, so there may be multiple occurrences of the same character. 
 	 A properly compressed string will consist of one instance of each character in alphabetical order 
